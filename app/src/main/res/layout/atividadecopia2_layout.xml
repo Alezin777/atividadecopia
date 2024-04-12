@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="#1E90FF"
     android:orientation="vertical"
-    tools:context=".atividadecopia">
+    tools:context=".atividadecopia2">
+
 
     <ImageView
         android:layout_width="150dp"
@@ -25,34 +26,65 @@
         android:textSize="30dp" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:hint="Usuario"
+        android:hint="Johnsmith"
         android:textColorHint="@color/white"
         app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:maxLength="20"
-            android:drawableEnd="@drawable/baseline_person"/>
+            android:layout_width="324dp"
+            android:layout_height="60dp"
+            android:drawableEnd="@drawable/baseline_person"
+            android:maxLength="20" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:hint="Senha"
+        android:hint="John@gmail.com"
+        android:textColorHint="@color/white"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="324dp"
+            android:layout_height="60dp"
+            android:drawableEnd="@drawable/baseline_email"
+            android:maxLength="20" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/white"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="324dp"
+            android:layout_height="60dp"
+            android:drawableEnd="@drawable/baseline_lock"
+            android:maxLength="20" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
         android:textColorHint="@color/white"
         app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:maxLength="20"
-            android:drawableEnd="@drawable/baseline_lock"/>
+            android:drawableEnd="@drawable/baseline_lock"
+            android:maxLength="20" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -64,22 +96,5 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="Forget the password?"
-        android:textAlignment="center"
-        android:textColor="@color/white" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
-        android:text="Don´t have an account? Creat new."
-        android:textAlignment="center"
-        android:textColor="@color/white" />
-
 
 </LinearLayout>
