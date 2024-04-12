@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#87CEFA"
+    android:background="#1E90FF"
     android:orientation="vertical"
     tools:context=".atividadecopia">
 
@@ -18,18 +18,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Apps Login"
         android:textAlignment="center"
-        android:textSize="30dp"
-        android:layout_marginTop="10dp"
-        />
+        android:textColor="@color/white"
+        android:textSize="30dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="Usuario"
+        android:textColorHint="@color/white"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full"
         app:startIconDrawable="@drawable/baseline_person"
+
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -43,8 +46,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="Senha"
+        android:textColorHint="@color/white"
         app:startIconDrawable="@drawable/baseline_lock"
-
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full"
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -55,13 +59,30 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="181dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#4169E1"
         android:hint="Sing in"
         android:textColorHint="@color/white"
-        android:layout_margin="50dp"
-        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Forget the password?"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="Don´t have an account? Creat new."
+        android:textAlignment="center"
+        android:textColor="@color/white" />
 
 
 </LinearLayout>
