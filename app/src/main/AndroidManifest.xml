@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".CopiaBandio2"
+            android:exported="false" />
+        <activity
+            android:name=".CopiaBandio"
+            android:exported="false" />
+        <activity
             android:name=".atividadecopia2"
             android:exported="false" />
         <activity
